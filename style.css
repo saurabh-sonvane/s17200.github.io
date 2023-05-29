@@ -12,7 +12,8 @@ html {
 
 body {
   background: #010132;
-  color: #fff;
+  color: #fff; 
+
 }
 
 .max-width {
@@ -624,6 +625,21 @@ nav .fas {
       grid-gap: 40px;
       margin-top: 50px;
   
+  }
+
+  @media only screen and (max-width:400px) {
+        .xxxx{ 
+        }
+        .imk{ 
+          flex-basis: initial;
+          width: initial;
+        }
+        #resume-button-2{
+          display: block;
+        }
+        #projects{
+          width: 350px;
+        }
   }
   
 }
